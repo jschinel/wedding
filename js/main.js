@@ -84,4 +84,32 @@ $(document).ready(function(){
     $(".gp-close").click(function(){
         $(".gallery-popup").removeClass("open")
     })
+
+
+
+    //Main Navigation
+
+    // Get the <div> element with the class "nav"
+    const navDiv = document.querySelector('.nav');
+    
+    // Get the <ul> element inside the "nav" div
+    const ulElement = navDiv.querySelector('ul');
+    
+    // Add event listener for click events on the <ul>
+    ulElement.addEventListener('click', function(event) {
+        // Check if the clicked element is an <li>
+        if (event.target.tagName === 'LI') {
+            // Get the id attribute of the clicked <li>
+            const liId = event.target.getAttribute('id');
+            goToSection(liId)
+        }
+    });
+    const ids=['home','couple','story','events','people','gallery','rsvp',]
+    function goToSection(navigationSelected){
+        const element = document.getElementById(ids[navigationSelected])
+        if(element)
+        {
+            element.scrollIntoView();
+        }
+    }
 })

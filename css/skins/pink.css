@@ -8,7 +8,8 @@
 .couple-section .couple i.fa-heart,
 .couple-section h3,
 .header .nav ul li a.active,
-.header .nav ul li a:hover{
+.header .nav ul li:hover,
+.header .logo a:hover{
     color:#fb839e;
 }
 .people-section .people-item-inner .social-links a i,
