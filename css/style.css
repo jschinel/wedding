@@ -345,6 +345,7 @@ header,section,footer{
 .story-section .story-img{
     flex: 0 0 50%;
     max-width: 50%;
+    align-self: center;
 }
 .story-section .story-text h3{
     font-size: 24px;
@@ -366,6 +367,7 @@ header,section,footer{
     line-height: 26px;
     margin: 0;
     columns: #555;
+    text-align: justify;
 }
 
 /* Event Section */
