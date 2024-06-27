@@ -430,6 +430,12 @@ header,section,footer{
     line-height: 26px;
     columns: #555;
     margin: 0;
+    padding-bottom: 15px;
+}
+.event-section .event-item-inner .location{
+    margin: 10px 0 0;
+    font-size: 24px;
+    line-height: 26px;
 }
 .event-section .event-item-inner img{
     position: absolute;
@@ -521,9 +527,6 @@ header,section,footer{
 .people-section .people-item-inner .social-links a:hover i{
     color: #fff;   
 }
-
-
-
 .gallery-section{
     padding: 80px 0 80px;
 }
@@ -532,6 +535,8 @@ header,section,footer{
     overflow-y: scroll;
     display: flex;
     flex-wrap: wrap;
+    border: #000 solid 1pt;
+    padding:10px;
 }
 .gallery-section .gallery-item{
     flex:0 0 33.33%;
