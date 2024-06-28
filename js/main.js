@@ -139,8 +139,24 @@ $(document).ready(function(){
         const proposalstory=document.getElementById("proposalstory")
         const marraige=document.getElementById("marraige")
         const marraigestory=document.getElementById("marraigestory")
+        const eventstitle=document.getElementById("eventstitle")
+        const ceremony=document.getElementById("ceremony")
+        const ceremonydate=document.getElementById("ceremonydate")
+        const reception=document.getElementById("reception")
+        const receptiondate=document.getElementById("receptiondate")
+        const receptiontime=document.getElementById("receptiontime")
+        const gallerytitle=document.getElementById("gallerytitle")
+        const rsvptitle=document.getElementById("rsvptitle")
+        const rsvpreminder=document.getElementById("rsvpreminder")
+        const formname=document.getElementById("formname")
+        const numberofguests=document.getElementById("numberofguests")
+        const attending=document.getElementById("attending")
+        const notattending=document.getElementById("notattending")
+        const rsvpmessage=document.getElementById("rsvpmessage")
+        const rsvpsend=document.getElementById("rsvpsend")
+        const closingthanks=document.getElementById("closingthanks")
         if(language==true)
-        {
+            {
             navhome.innerText="Hogar"
             navcouple.innerText="Pareja"
             navstory.innerText="Historia"
@@ -176,6 +192,22 @@ $(document).ready(function(){
             Y así, a medida que avanzaba la noche y las estrellas pintaban sus historias en los cielos, nos encontramos perdidos en la serenidad de las montañas, dos almas unidas por el amor y la promesa de un futuro lleno de aventuras sin fin, el brillo de esa diamante un recordatorio constante del amor que iluminó nuestro camino.</p>`
             marraige.innerHTML=`matrimonio`
             marraigestory.innerHTML=`A medida que se acerca nuestro día especial, nos sentimos llenos de emoción y anticipación. Estaríamos honrados y encantados de que se una a nosotros para celebrar nuestro amor y unión. Su presencia haría que el día de nuestra boda fuera aún más significativo y memorable. Esperamos verle allí, compartiendo la alegría y las festividades con nosotros.`
+            eventstitle.innerHTML='Celebremos nuestro amor'
+            ceremony.innerHTML=`Ceremonia`
+            ceremonydate.innerHTML=`19 de octubre de 2024`
+            reception.innerHTML='Recepción'
+            receptiondate.innerHTML=`19 de octubre de 2024`
+            receptiontime.innerHTML='Las puertas se abren a las 2:00 PM'
+            gallerytitle.innerHTML=`Galería`
+            rsvptitle.innerHTML=`Estás invitado`
+            rsvpreminder.innerHTML=`Por favor, responda amablemente antes del 3 de septiembre de 2024`
+            formname.placeholder='Nombre'
+            numberofguests.text=`Número de invitados`        
+            attending.text="Asisto"        
+            notattending.text="No voy a asistir"        
+            rsvpmessage.placeholder="Mensaje"        
+            rsvpsend.innerText="Enviar"
+            closingthanks.innerHTML=`Gracias`        
         }
         if(language==false)
         {
@@ -213,6 +245,22 @@ $(document).ready(function(){
             And so, as the night wore on and the stars painted their stories across the heavens, we found ourselves lost in the serenity of the mountains, two souls bound together by love and the promise of a future filled with endless adventure, the twinkle of that diamond a constant reminder of the love that illuminated our path.</p>`
             marraige.innerHTML=`Marraige`
             marraigestory.innerHTML=`As our special day draws near, we find ourselves filled with excitement and anticipation. We would be honored and delighted to have you join us in celebrating our love and union. Your presence would make our wedding day even more meaningful and memorable. We hope to see you there, sharing in the joy and festivities with us.`
+            eventstitle.innerHTML=`Celebrate Our Love`
+            ceremony.innerHTML=`Ceremony`
+            ceremonydate.innerHTML=`October 19th 2024`
+            reception.innerHTML=`Reception`
+            receptiondate.innerHTML=`October 19th 2024`
+            receptiontime.innerHTML=`Doors Open At 2:00 PM`
+            gallerytitle.innerHTML=`Gallery`
+            rsvptitle.innerHTML=`You Are Invited`
+            rsvpreminder.innerHTML=`Please kindly respond before 3rd of September 2024`
+            formname.placeholder='Name'
+            numberofguests.text=`Number of Guest`        
+            attending.text=`I am attending`        
+            notattending.text=`I am not attending`
+            rsvpmessage.placeholder="Message"        
+            rsvpsend.innerText="Send"
+            closingthanks.innerHTML=`Thanks`           
         }
     }
 })
